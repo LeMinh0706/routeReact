@@ -1,0 +1,144 @@
+{
+    "User": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 25,
+            "img": "https://i.pinimg.com/564x/f3/18/e1/f318e1223443ff3ee9c882c0dca2d9be.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Alice Smith",
+            "age": 30,
+            "img": "https://i.pinimg.com/564x/dc/46/40/dc46403064ec076a128234ffdcd916c9.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Michael Johnson",
+            "age": 28,
+            "img": null
+        },
+        {
+            "id": 4,
+            "name": "Emily Brown",
+            "age": 35,
+            "img": null
+        },
+        {
+            "id": 5,
+            "name": "David Wilson",
+            "age": 22,
+            "img": null
+        },
+        {
+            "id": 6,
+            "name": "Sarah Taylor",
+            "age": 27,
+            "img": null
+        },
+        {
+            "id": 7,
+            "name": "James Martinez",
+            "age": 31,
+            "img": null
+        },
+        {
+            "id": 8,
+            "name": "Jessica Anderson",
+            "age": 29,
+            "img": "https://i.pinimg.com/564x/2f/cc/ae/2fccaedd06ff94a717ded548998b41af.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Robert Lee",
+            "age": 26,
+            "img": null
+        },
+        {
+            "id": 10,
+            "name": "Megan Garcia",
+            "age": 32,
+            "img": null
+        },
+        {
+            "id": 11,
+            "name": "Christopher Thomas",
+            "age": 33,
+            "img": "https://i.pinimg.com/564x/0a/95/f5/0a95f52b8093f850b8053a313f82d96b.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Lauren Rodriguez",
+            "age": 28,
+            "img": null
+        }
+    ],
+    "Posts": [
+        {
+            "id": 1,
+            "content": "First post by Alice",
+            "img": null,
+            "user": {
+                "id": 2,
+                "name": "Alice Smith",
+                "age": 30,
+                "img": null
+            }
+        },
+        {
+            "id": 2,
+            "content": "Freefire post by John",
+            "img": null,
+            "user": {
+                "id": 1,
+                "name": "John Doe",
+                "age": 25,
+                "img": null
+            }
+        },
+        {
+            "id": 3,
+            "content": "First post by Alice",
+            "img": null,
+            "user": {
+                "id": 2,
+                "name": "Alice Smith",
+                "age": 30,
+                "img": null
+            }
+        },
+        {
+            "id": 4,
+            "content": "Second post by Alice",
+            "img": null,
+            "user": {
+                "id": 2,
+                "name": "Alice Smith",
+                "age": 30,
+                "img": null
+            }
+        },
+        {
+            "id": 5,
+            "content": "Third post by Alice",
+            "img": null,
+            "user": {
+                "id": 11,
+                "name": "Christopher Thomas",
+                "age": 33,
+                "img": null
+            }
+        },
+        {
+            "id": 6,
+            "content": "Fourth post by Alice",
+            "img": null,
+            "user": {
+                "id": 8,
+                "name": "Jessica Anderson",
+                "age": 29,
+                "img": null
+            }
+        }
+    ]
+}
