@@ -76,68 +76,68 @@
     "Posts": [
         {
             "id": 1,
-            "content": "First post by Alice",
-            "img": null,
+            "content": "Normal day with my gang!",
+            "img": "https://i.pinimg.com/736x/98/5b/4c/985b4c4f0b73fcad697807f1399bf025.jpg",
             "user": {
                 "id": 2,
                 "name": "Alice Smith",
                 "age": 30,
-                "img": null
+                "img": "https://i.pinimg.com/564x/dc/46/40/dc46403064ec076a128234ffdcd916c9.jpg"
             }
         },
         {
             "id": 2,
-            "content": "Freefire post by John",
-            "img": null,
+            "content": "I miss her",
+            "img": "https://i.pinimg.com/736x/82/98/7b/82987b434ac12cf32e1311f5b1d0cf24.jpg",
             "user": {
                 "id": 1,
                 "name": "John Doe",
                 "age": 25,
-                "img": null
+                "img": "https://i.pinimg.com/564x/f3/18/e1/f318e1223443ff3ee9c882c0dca2d9be.jpg"
             }
         },
         {
             "id": 3,
-            "content": "First post by Alice",
-            "img": null,
+            "content": "Grafiti art!",
+            "img": "https://i.pinimg.com/564x/18/23/fe/1823fe547488f759609b60d512d646e5.jpg",
             "user": {
                 "id": 2,
                 "name": "Alice Smith",
                 "age": 30,
-                "img": null
+                "img": "https://i.pinimg.com/564x/dc/46/40/dc46403064ec076a128234ffdcd916c9.jpg"
             }
         },
         {
             "id": 4,
-            "content": "Second post by Alice",
-            "img": null,
+            "content": "Ban vao tim em",
+            "img": "https://i.pinimg.com/736x/bd/41/82/bd4182881b898d9f3a1de1f9dd9f9691.jpg",
             "user": {
                 "id": 2,
                 "name": "Alice Smith",
                 "age": 30,
-                "img": null
+                "img": "https://i.pinimg.com/564x/dc/46/40/dc46403064ec076a128234ffdcd916c9.jpg"
             }
         },
         {
             "id": 5,
-            "content": "Third post by Alice",
-            "img": null,
+            "content": "Sad ending",
+            "img": "https://i.pinimg.com/564x/ea/5d/27/ea5d27dd97d981e0572441b4622046fc.jpg",
             "user": {
                 "id": 11,
                 "name": "Christopher Thomas",
                 "age": 33,
-                "img": null
+                "img": "https://i.pinimg.com/564x/0a/95/f5/0a95f52b8093f850b8053a313f82d96b.jpg"
             }
         },
         {
             "id": 6,
-            "content": "Fourth post by Alice",
-            "img": null,
+            "content": "What's up",
+            "img": "https://i.pinimg.com/564x/45/84/e3/4584e3c093c9f75a6add338b227831b8.jpg",
             "user": {
                 "id": 8,
                 "name": "Jessica Anderson",
                 "age": 29,
-                "img": null
+                "img": "https://i.pinimg.com/564x/2f/cc/ae/2fccaedd06ff94a717ded548998b41af.jpg"
             }
         }
     ]
