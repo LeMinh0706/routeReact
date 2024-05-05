@@ -1,5 +1,5 @@
 const fetchUser = async () =>{
-    const response = await fetch('http://localhost:3000/User?_sort=-id');
+    const response = await fetch('http://localhost:3000/User');
     const UserData = await response.json();
     return UserData;
 }

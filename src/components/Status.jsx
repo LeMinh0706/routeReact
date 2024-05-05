@@ -7,7 +7,7 @@ import { fetchPost } from "../api/api"
 
 export default function Status() {
 
-    const { data: postData, isLoading } = useQuery({
+    const { data: postData, isLoading, isError, error } = useQuery({
         queryKey: ["Posts"],
         queryFn: fetchPost,
     })
@@ -16,8 +16,9 @@ export default function Status() {
     return (
         <div className="flex w-full flex-col">
             {isLoading && <p>...Loading...</p>}
+            {isError && <p>{error.message}</p>}
             {postData?.map((item) => (
-                <div className="flex gap-3 flex-col mb-5 bg-slate-50 shadow-lg p-5" key={item.id}>
+                <div className="flex gap-3 flex-col mb-5 bg-orange-200 shadow-lg p-5" key={item.id}>
                     <div className="flex items-center gap-3">
                         <Avt src={item.user.img}></Avt>
                         <p className="font-semibold text-xl">{item.user.name}</p>

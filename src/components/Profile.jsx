@@ -1,10 +1,27 @@
-import Avt from "./Avatar"
+import { useQuery } from "@tanstack/react-query"
+import Avatar from "./Avatar"
 import { rates } from "./data"
+import { fetchUser } from "../api/api"
 
 export default function Profile() {
+
+    const { data: userData, isLoading } = useQuery({
+        queryKey: ["User"],
+        queryFn: fetchUser,
+    })
+    console.log(userData);
+
     return (
-        <div className="flex justify-center laptop:w-[90%]">
-            <div className="flex flex-wrap w-full  laptop:w-[90%] items-center ">
+        <div className="mt-5 flex flex-wrap laptop:w-[90%] gap-4">
+            {isLoading && <p>Loading...</p>}
+            {userData?.map((item) => (
+                <div className="flex flex-col items-center justify-around w-[150px] h-[200px] bg-[#fdfdfd] border-blue-950 border rounded-lg" key={item.id}>
+                    <Avatar src={item.img}></Avatar>
+                    <p>{item.name}</p>
+                    <p>{item.age}</p>
+                </div>
+            ))}
+            {/* <div className="flex flex-wrap w-full  laptop:w-[90%] items-center ">
                 {rates.map((item) => (
                     <div key={item.id} className="flex gap-2 flex-col items-center rounded-lg border-[1px] border-black p-5 bg-slate-600 m-4 flex-wrap">
                         <Avt src={item.img}></Avt>
@@ -20,7 +37,7 @@ export default function Profile() {
                         </div>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </div>
     )
 }

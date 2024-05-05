@@ -16,31 +16,31 @@
             "id": 3,
             "name": "Michael Johnson",
             "age": 28,
-            "img": null
+            "img": "https://i.pinimg.com/564x/81/ab/c1/81abc12b0cc3cb3267a380ee4796bf22.jpg"
         },
         {
             "id": 4,
             "name": "Emily Brown",
             "age": 35,
-            "img": null
+            "img": "https://i.pinimg.com/564x/89/8b/37/898b37941a4f9ab699c6272d451da767.jpg"
         },
         {
             "id": 5,
             "name": "David Wilson",
             "age": 22,
-            "img": null
+            "img": "https://i.pinimg.com/564x/ab/36/45/ab3645fd978ef08c0ccbf03d24cc99b8.jpg"
         },
         {
             "id": 6,
             "name": "Sarah Taylor",
             "age": 27,
-            "img": null
+            "img": "https://i.pinimg.com/564x/c2/ec/1f/c2ec1ffb5c4f2fd089796ec3baf71598.jpg"
         },
         {
             "id": 7,
             "name": "James Martinez",
             "age": 31,
-            "img": null
+            "img": "https://i.pinimg.com/564x/85/dc/8c/85dc8cd068e7e59139d9620684e1312b.jpg"
         },
         {
             "id": 8,
@@ -52,13 +52,13 @@
             "id": 9,
             "name": "Robert Lee",
             "age": 26,
-            "img": null
+            "img": "https://i.pinimg.com/564x/ba/c6/79/bac67993602abb2b9e0025ef038a2d76.jpg"
         },
         {
             "id": 10,
             "name": "Megan Garcia",
             "age": 32,
-            "img": null
+            "img": "https://i.pinimg.com/736x/27/56/8b/27568b66d90d52e624e052b05d24e3bb.jpg"
         },
         {
             "id": 11,
@@ -70,7 +70,7 @@
             "id": 12,
             "name": "Lauren Rodriguez",
             "age": 28,
-            "img": null
+            "img": "https://i.pinimg.com/564x/08/75/11/0875110d47f0f068f71aea7245b4e725.jpg"
         }
     ],
     "Posts": [
